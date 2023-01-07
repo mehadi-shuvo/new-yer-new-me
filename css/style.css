@@ -199,3 +199,84 @@ text-align: center;
 text-decoration: none;
 
 }
+
+/* ======================================
+mindset css starts
+====================================== */
+
+footer{
+    background-color: #151414 ;
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+}
+
+footer .footer-container{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+footer .footer-container .future h4{
+    font-weight: 700;
+font-size: 45px;
+color: #F8F8F8;
+padding-bottom: 16px;
+}
+
+footer .footer-container .future p{
+    font-weight: 400;
+font-size: 16px;
+color: #FFFFFF;
+padding-bottom: 24px;
+}
+footer .footer-container .future .email{
+padding-bottom: 16px;
+}
+footer .footer-container .future .phone{
+padding-bottom: 32px;
+}
+
+footer .footer-container .future ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+footer .footer-container .future ul li{
+    list-style: none;
+    margin-right: 17px;
+}
+
+footer .footer-container .form-contant h3{
+    font-weight: 600;
+font-size: 25px;
+color: #F8F8F8;
+padding-bottom: 31px;
+}
+
+footer .footer-container .form-contant input{
+    width: 325px;
+height: 64px;
+background-color: #151414;
+border: 1px solid #fff;
+border-radius: 8px;
+padding-left: 16px;
+color: #fff;
+}
+
+footer .footer-container .form-contant button{
+    font-weight: 600;
+font-size: 20px;
+color: #F15B22;
+    display: block;
+    padding: 21px 36px;  
+background-color: #fff;
+border: none;
+border-radius: 5px;
+margin-top: 16px;
+text-transform: capitalize;
+cursor: pointer;
+}
