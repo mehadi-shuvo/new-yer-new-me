@@ -155,3 +155,47 @@ font-size: 25px;
 color: #737272;
 padding-top: 16px;
 }
+
+
+/* ======================================
+mindset css starts
+====================================== */
+
+.mindset{
+    margin-top: 130px;
+    display: flex;
+    justify-content: center;
+}
+.mindset .mindset-container{
+    width: 80%;
+    background-image:linear-gradient(to right, rgba(241, 91, 34, 1), rgba(255, 255, 255, 0)), url(../images/watch.png);
+    border-radius: 8px;
+}
+
+.mindset .mindset-container h3{
+    font-weight: 700;
+font-size: 40px;
+color: #FFFFFF;
+padding-top: 60px;
+padding-left: 64px;
+}
+
+.mindset .mindset-container .s-btn{
+    padding: 21px 36px;  
+background-color: #fff;
+border: none;
+border-radius: 5px;
+margin-left: 64px;
+margin-bottom: 60px;
+margin-top: 24px;
+text-transform: capitalize;
+}
+
+.mindset .mindset-container .s-btn a{
+    font-weight: 600;
+font-size: 20px;
+color: #F15B22;
+text-align: center;
+text-decoration: none;
+
+}
