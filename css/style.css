@@ -10,6 +10,9 @@ banner css starts
 
 header{
     background-image: url(../images/banner/banner1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     height: 100vh;
     display: flex;
    justify-content: center;
@@ -231,7 +234,7 @@ mindset css starts
     font-weight: 700;
 font-size: 40px;
 color: #FFFFFF;
-padding-top: 60px;
+padding-top: 59px;
 padding-left: 64px;
 }
 
@@ -241,7 +244,7 @@ background-color: #fff;
 border: none;
 border-radius: 5px;
 margin-left: 64px;
-margin-bottom: 60px;
+margin-bottom: 59px;
 margin-top: 24px;
 text-transform: capitalize;
 }
