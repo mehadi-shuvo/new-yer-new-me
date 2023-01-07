@@ -3,3 +3,46 @@
     margin: 0;
     font-family: 'Work Sans', sans-serif;
 }
+
+/* ======================================
+banner css starts
+====================================== */
+
+header{
+    background-image: url(../images/banner/banner1.png);
+    height: 100vh;
+    display: flex;
+   justify-content: center;
+   
+}
+
+.banner-container{
+   width: 60%;
+   text-align: right;
+}
+
+.banner-container .heading{
+    font-weight: 700;
+font-size: 35px;
+color: #151414;
+padding-top: 228px;
+}
+.banner-container .discribe{
+    font-weight: 400;
+font-size: 16px;
+color: #444343;
+padding-top: 28px;
+}
+
+.banner-container .primary-btn{
+    border: none;
+    background-color: #F15B22;
+    font-weight: 600;
+font-size: 20px;
+color: #FFFFFF;
+padding: 21px 26px;
+border-radius: 5px;
+margin-top: 32px;
+text-transform: capitalize;
+
+}
