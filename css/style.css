@@ -17,7 +17,7 @@ header{
 }
 
 .banner-container{
-   width: 60%;
+   width: 80%;
    text-align: right;
 }
 
@@ -45,4 +45,61 @@ border-radius: 5px;
 margin-top: 32px;
 text-transform: capitalize;
 
+}
+
+/* ======================================
+previous year css starts
+====================================== */
+
+.previous-year{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+}
+
+.previous-year .p-year-container{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.previous-year .p-year-container .contant{
+    margin-top: 240px;
+    width: 47%;
+}
+.previous-year .p-year-container .image{
+    width: 47%;
+}
+.previous-year .p-year-container .image img{
+    width: 100%;
+}
+
+.previous-year .p-year-container .contant .heading{
+    font-weight: 700;
+font-size: 35px;
+color: #151414;
+}
+
+.previous-year .p-year-container .contant .description{
+    font-weight: 400;
+font-size: 16px;
+color: #444343;
+padding-top: 24px;
+}
+.previous-year .p-year-container .contant ul{
+    margin: 0;
+    padding: 0;
+    padding-top: 16px;
+}
+.previous-year .p-year-container .contant li{
+    list-style: none;
+    font-weight: 400;
+font-size: 16px;
+color: #444343;
+padding-bottom: 8px;
+}
+
+.previous-year .p-year-container .contant li i{
+    color: #16D887;
 }
